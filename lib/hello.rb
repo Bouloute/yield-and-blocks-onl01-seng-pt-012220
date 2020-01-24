@@ -8,7 +8,7 @@ def hello_t(names)
     end
     return names
   end
-  puts
+  puts "Hey! No block was given!"
 end
 
 # call your method here!
