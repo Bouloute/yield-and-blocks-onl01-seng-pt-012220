@@ -10,5 +10,7 @@ end
 # call your method here!
 
 hello_t(["Thomas", "Ariane", "Ivy", "Thatan"]){ |name|
-  
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
 }
